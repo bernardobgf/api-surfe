@@ -8,8 +8,13 @@ import { swaggerSpec } from "./config/swagger.js";
 
 const app = express();
 const PORT = process.env.PORT || 3333;
+const allowedOrigins = ["", process.env.FRONTEND_URL ?? ""].filter(Boolean);
 
-app.use(cors());
+app.use(
+  cors({
+    origin: allowedOrigins,
+  }),
+);
 app.use(express.json());
 
 //rotas
