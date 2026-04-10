@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3333;
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://frontend-surfe.vercel.app",
   }),
 );
 app.use(express.json());
