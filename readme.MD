@@ -101,7 +101,7 @@ O score vai de 0 a 10 e é calculado com base em 3 critérios:
 **1. Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/surf-api.git
+git clone https://github.com/bernardobgf/surf-api.git
 cd surf-api
 ```
 
