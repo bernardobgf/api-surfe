@@ -13,7 +13,7 @@ export async function getSurfConditions(lat: number, lng: number) {
         "wave_direction",
         "wind_wave_height",
       ].join(","),
-      forecast_days: 7,
+      forecast_days: 1,
     },
   });
 
